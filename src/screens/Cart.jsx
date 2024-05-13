@@ -20,7 +20,7 @@ function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("http://localhost:5100/api/orderData", {
+    let response = await fetch("https://gofoooood.netlify.app/orderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
