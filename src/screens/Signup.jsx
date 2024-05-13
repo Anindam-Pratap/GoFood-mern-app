@@ -9,7 +9,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('http://https://gofoooood.netlify.app/api/createuser', {
+    const response = await fetch('https://gofoooood.netlify.app/api/createuser', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
